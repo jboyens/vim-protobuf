@@ -13,20 +13,6 @@
 " See the License for the specific language governing permissions and
 " limitations under the License.
 
-" This is the Vim syntax file for Google Protocol Buffers.
-"
-" Usage:
-"
-" 1. cp proto.vim ~/.vim/syntax/
-" 2. Add the following to ~/.vimrc:
-"
-" augroup filetype
-"   au! BufRead,BufNewFile *.proto setfiletype proto
-" augroup end
-"
-" Or just create a new file called ~/.vim/ftdetect/proto.vim with the
-" previous lines on it.
-
 if version < 600
   syntax clear
 elseif exists("b:current_syntax")
